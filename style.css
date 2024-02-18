@@ -1,0 +1,812 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: xyz;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-section {
+    width: 333px;
+    height: 115px;
+}
+
+.logo-image img {
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-inline-start: 120px;
+}
+
+.logo-image h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 160px;
+    display: flex;
+    margin-inline-start: 173px;
+    margin-top: -45px;
+    color: #3a3a3a;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    width: 540px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; 
+    margin-top: -74px;
+    margin-inline-end: 650px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 35px; 
+}
+
+.top-section {
+    width: 710px;
+    top: -2436px;
+    margin-top: 250px;
+    text-align: start;
+}
+
+.content-section h3 {
+    width: 340px;
+    height: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-inline-start: 100px;
+}
+
+.content-section h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242A2E;
+    margin-inline-start: 99px;
+}
+
+.content-section p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-inline-start: 99px;
+    color: #3D3D3D;
+}
+
+.images-section img {
+    width: 750px;
+    height: 732px;
+    background-color: #00715D;
+    margin-inline-start: 1200px;
+    margin-top: -700px;
+    z-index: -1;
+    position: relative;
+}
+.btn-one {
+    position: relative;
+    z-index: 1;
+    width: 250px; 
+    height: 59px;
+    border-radius: 29.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    background-color: #E17153;
+    color: #ffff;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline-start: 1300px;
+    margin-top: -40px;
+}
+
+.image-arrow {
+    margin-left: -110px;
+}
+
+.image-arrow img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px; 
+    margin-bottom: 22px;
+}
+
+/* Donation Container */
+
+.container-one {
+    position: absolute;
+    width: 536.36px;
+    height: 900px;
+    top: 159px;
+    left: 944px;
+    border-radius: 53px;
+    border: 1px solid black;
+    background-color: #ffff;
+    margin-inline-start: -10px;
+    margin-bottom: 300px;
+    z-index: -1;
+}
+
+
+.container-one img {
+    width: 507.53px;
+    height: 428.99px;
+    top: 171.92px;
+    left: 960.4px;
+    margin-top: 20px;
+    margin-inline-start: 10px;
+}
+.container-one h1 {
+    margin-top: 40px;
+    margin-bottom: 25px; 
+    width: 79px;
+    height: 28px;
+    top: 643px;
+    left: 982px;
+    font-size: 35px;
+    margin-inline-start: 30px;
+}
+.container-one h4 {
+    display: flex;
+    width: 50px;
+    margin-inline-start: 86px;
+    margin-top: -45px
+}
+.container-one h3 {
+    width: 190px;
+    height: 12px;
+    top: 677px;
+    left: 982px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    margin-inline-start: 30px;
+    margin-top: 25px; 
+}
+.container-one h2 {
+    width: 447px;
+    height: 74px;
+    top: 698px;
+    left: 982px;
+    font-family: Rubik;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin-inline-start: 30px;
+    margin-block: 15px;
+}
+.container-one p {
+    width: 455px;
+    height: 32px;
+    top: 790px;
+    left: 983px;
+    opacity: 1px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-inline-start: 10px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.goal-raised1 {
+    display: flex;
+    margin-top: 37px;
+    gap: 360px;
+    height: 165px;
+    width: 535px;
+}
+.goal-raised1 h5 {
+    width: 100px;
+    height: 14px;
+    font-size: 15px;
+    color: #1A1A1A;
+    margin-inline-start: 30px;
+}
+.goal-raised1 h6 {
+     width: 100px;
+     height: 14px;
+     font-size: 15px;
+     color: #1A1A1A;
+     margin-inline-start: -90px;
+}
+.doc-one{
+    width: 472px;
+    height:8.95px;
+    background-color: #D9D9D9;
+    margin-top: -130px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.doc-two{
+    width: 50%;
+    height:8.95px;
+    background-color: #E17153;
+    border-radius: 10px;
+}
+.btn-donate1 button {
+    width: 450px;
+    height: 57px;
+    top: 825px;
+    left: 1547px;
+    border-radius: 61.5px;
+    background-color: #E17153;
+    color: #ffff;
+    border: none;
+    font-size: 28px;
+    font-family: Rubik;
+    margin-inline-start: -547px;
+    display: grid;
+    place-items: center;
+    margin-top: 77px;
+}
+
+/* Container-Two */
+
+.container-two {
+    position: absolute;
+    width: 332px;
+    height: 568px;
+    top: 363px;
+    left: 1525px;
+    border-radius: 28px;
+    background-color: #ffff;
+    border: 1px solid black; 
+    margin-inline-start: 16px;
+    margin-top: 50px;   
+}
+.container-two img {
+    width: 314.15px;
+    height: 265.54px;
+    top: 371px;
+    left: 1535.15px;
+    margin-top: 20px;
+    margin-inline-start: 10px;
+}
+.container-two h1 {
+    margin-top: 40px;
+    margin-bottom: 25px; 
+    width: 29px;
+    height: 19px;
+    top: 665.31px;
+    left: 1548.52px;
+    font-size: 18px;
+    margin-inline-start: 30px;
+    margin-top: 2px;
+}
+.container-two h4 {
+    display: flex;
+    width: 32px;
+    height: 7.43px;
+    top: 692px;
+    left: 1548.52px;
+    margin-inline-start: 65px;
+    margin-top: -37px;
+    font-size: 10px;
+    line-height: 9.48px;
+}
+.container-two h3 {
+    width: 276.69px;
+    height: 14px;
+    top: 709.36px;
+    left: 1547px;
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 19.8px;
+    letter-spacing: 0em;
+    margin-inline-start: 30px;
+    margin-top: 15px; 
+    color: #262A2C;
+}
+.container-two h2 {
+    width: 276.69px;
+    height: auto;
+    top: 709.36px;
+    left: 1547px;
+    font-family: Rubik;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19.4px;
+    letter-spacing: 0em;
+    margin-inline-start: 30px;
+    margin-block: 15px;
+}
+.container-two p {
+    width: 200px;
+    height: 14px;
+    top: 755.36px;
+    left: 1546px;
+    font-family: Rubik;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-inline-start: 30px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-top: -18px;
+}
+.goal-raised2 {
+    display: flex;
+    margin-top: 37px;
+    gap: 140px;
+    height: 136px;
+    width: 330px;
+}
+.goal-raised2 h5 {
+    width: 60px;
+    height: 14px;
+    font-size: 8px;
+    color: #262A2C;
+    margin-inline-start: 30px;
+}
+.goal-raised2 h6 {
+     width: 100px;
+     height: 14px;
+     font-size: 8px;
+     color: #262A2C;
+}
+.doc-three{
+    width: 230.31px;
+    height: 5.54pxpx;
+    background-color: #D9D9D9;
+    /* display: flex;
+    justify-content: start;
+    align-items: start; */
+    border-radius: 10px;
+    margin-top: -110px;
+    margin-left: 33px;
+}
+.doc-four{
+    width: 50%;
+    height: 5.54px;
+    background-color: #E17153;
+    border-radius: 10px;
+}
+
+.btn-donate2 button  {
+    width: 300px;
+    height: 40.85px;
+    border-radius: 61.5px;
+    background-color: #E17153;
+    color: #ffff;
+    border: none;
+    font-size: 19px;
+    font-family: Rubik;
+    margin-inline-start: -461px;
+    display: grid;
+    place-items: center;
+    margin-top: 67px;
+}
+
+.btn-child button {
+    width: 576px;
+    height: 69px;
+    border-radius: 61.5px;
+    background-color: #E17153;
+    border: none;
+    color: #ffff;
+    font-size: 35px;
+    font-size: 600;
+    font-family: Rubik;
+    margin-top: 60px;
+}
+
+.one{
+    width: 908px;
+    height: 254px;
+    background: #00715D;
+    border-top-right-radius: 100px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 60px;
+}
+
+.info h1 {
+    font-size: 40px;
+}
+
+.info{
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 20px;
+    font-family: Rubik;
+}
+
+/* Trusted Logos */
+
+.trusted-logos {
+    margin-top: -290px;
+}
+
+.trust-content p {
+    left: 650px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+}
+.main-logos  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+.logo1 img,
+.logo2 img,
+.logo3 img,
+.logo4 img {
+    width: 70.37px;
+    height: 28px;
+}
+
+
+/*  Share Food with each other / Box   */
+
+.full-container {
+    width: 1667px;
+    height: 853px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-inline-start: 70px;
+    border-radius: 90px;
+}
+.photo-conatiner{
+    width: 697px;
+    height: 780px;
+    margin-inline-start: 940px;
+    margin-top: 30px;
+    border-top-left-radius: 90px;
+}
+.poor-childs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poor-childs img {
+    width: 697px;
+    height: 780px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.donate-content {
+    margin-top: -740px;
+    width: 864px;
+    height: 480px;
+    margin-inline-start: 40px;
+}
+.donate-content h1 {
+    color: #E17153;
+    font-size: 49px;
+    padding: 15px 20px;
+    width: 150px;
+    height: 70px;
+}
+.donate-content h3 {
+    display: flex;
+    width: 60px;
+    margin-inline-start: 100px;
+    margin-top: -30px;
+    text-align: start;
+}
+.donate-content h4 {
+    width: 190px;
+    height: 12px;
+    line-height: 14.22px;
+    color: #383F42;
+    margin-top: 20px;
+    text-align: start;
+    margin-inline-start: 18px;
+}
+.donate-content h2 {
+    width: 664px;
+    height: 258px;
+    margin-top: 30px;
+    margin-inline-start: 18px;
+    font-size: 78px;
+    font-family: Rubik;
+    color: #262A2C;
+}
+.donate-content p {
+    width: 633px;
+    height: 56px;
+    font-size: 16px;
+    font-family: Rubik;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-inline-start: 18px;
+}
+.outline {
+    width: 898px;
+    height: 54px;
+}
+.doc1{
+    width: 871px;
+    height: 18px;
+    background-color: #e0e8e8;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.doc2{
+    width: 50%;
+    height: 18px;
+    background-color: #E17153;
+    border-radius: 10px;
+}
+
+.btn-donate button {
+    background-color: #E17153;
+    width: 900px;
+    height: 100px;
+}
+
+.fund-raises {
+    width: 850px;
+    display: flex;
+    gap: 578px;
+    margin-top: 20px;
+    margin-inline-start: 10px;
+}
+.fund-raises h5 {
+    font-size: 18px;
+    font-family: Rubik;
+    color: #3D3D3D;
+}
+.btn-donate4 {
+    width: 576px;
+    height: 69px;
+    border-radius: 61.5px;
+    background-color: #E17153;
+    border: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Rubik;
+    margin-top: 50px;
+}
+
+/* How To Start Help / Container */
+
+.start-help-container {
+    width: 1715px;
+    height: 620px;
+    background-color: #E17153;
+    border-radius: 90px;
+    margin-inline-start: 40px;
+    margin-top: 250px;
+}
+.help-text {
+    display: grid;
+    place-content: center;
+    width: 827px;
+    height: 236px;
+    margin-inline-start: 420px;
+}
+.help-text h1 {
+    width: 830px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 56px;
+    font-family: Rubik;
+    color: #ffff;
+    padding-top: 90px;
+}
+.help-text p {
+    width: 690px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: Center;
+    margin-top: 50px;
+    color: #ffff;
+    text-align: center;
+    margin-inline-start: 40px;
+}
+.help-text h6 {
+    width: 500px;
+    margin-inline-start: 120px;
+    text-align: center;
+    color: #ffff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* inner container */
+
+.inner-container {
+    width: 1716px;
+    height: 292px;
+    display: flex;
+    gap: 00px;
+}
+.box1 {
+    width: 400px;
+    height: 200px;
+    margin-top: 70px;
+    margin-inline-start: 60px;
+}
+.box2 {
+    width: 400px;
+    height: 200px;
+    margin-top: 70px;
+    margin-inline-start: 230px;
+}
+.box3 {
+    width: 360px;
+    height: 200px;
+    margin-top: 70px;
+    margin-inline-start: 200px;
+}
+.box1 img {
+    width: 80.38px;
+    height: 80px;
+    margin-inline-start: 130px;
+}
+.box2 img {
+    width: 80.38px;
+    height: 80px;
+    margin-inline-start: 100px;
+}
+.box3 img {
+    width: 80.38px;
+    height: 80px;
+    margin-inline-start: 130px;
+}
+.box1 h1 {
+    color: #FFF3F3;
+    font-family: Rubik;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 32px;
+    margin-inline-start: 50px;
+}
+.box2 h1 {
+    font-family: Rubik;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 32px;
+    margin-top: 30px;
+    color: #ffff;
+    margin-inline-start: 50px;
+}
+.box3 h1 {
+    color: #FFF3F3;
+    font-family: Rubik;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 32px;
+    margin-top: 30px;
+    width: 270px;
+    margin-inline-start: 50px;
+    color: #ffff;
+}
+.box1 p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E3DEDE;
+   margin-inline-start: 50px;
+}
+.box2 p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E3DEDE;
+    margin-inline-start: 50px;
+}
+.box3 p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    width: 300px;
+    color: #E3DEDE;
+    margin-inline-start: 50px;
+}
+
+/* Gives Donations */
+
+.gives-donations {
+    width: 1741px;
+    height: 1593px;
+    margin-inline-start: 30px;
+    margin-top: 200px;
+}
+.starting-info {
+    width: 1740px;
+    height: 170px;
+}
+.starting-info h1 {
+    width: 531px;
+    height: 168px;
+    font-size: 61px; 
+    font-family: Rubik;
+    font-weight: 700;
+    color: #242A2E;
+    margin-inline-start: 80px;
+}
+.show-more {
+    width: 550px;
+    margin-inline-start: 1190px;
+    margin-top: -160px;
+    
+}
+.show-more p {
+   width: 540px;
+    height: 68px;
+    font-family: Rubik;
+    font-size: 19.19px;
+    font-weight: 400;
+    letter-spacing: -1%;
+    color: #3D3D3D;
+    display: flex;  
+}
+.call-to-action p {
+
+}
